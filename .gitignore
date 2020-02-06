@@ -2,3 +2,4 @@
 /Core/target/
 /Visualizer/target/
 .idea/
+*.iml
