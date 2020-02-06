@@ -1,0 +1,4 @@
+# Project exclude paths
+/Core/target/
+/Visualizer/target/
+.idea/
