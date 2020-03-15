@@ -22,11 +22,18 @@ To add JNoise to your project using [Gradle](https://gradle.org/) or [Maven](htt
 
 Repository:
 ```
-
+<repository>
+    <id>articdive-nexus</id>
+    <url>https://repo.articdive.de/repository/maven-public/</url>
+</repository>
 ```
 Dependency:
 ```
-
+<dependency>
+    <groupId>de.articdive</groupId>
+    <artifactId>jnoise</artifactId>
+    <version>1.0-SNAPSHOT</version>
+</dependency>
 ```
 ## Usage
 
