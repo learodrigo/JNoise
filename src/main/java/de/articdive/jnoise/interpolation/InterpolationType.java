@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package de.articdive.jnoise.noise.interpolation;
+package de.articdive.jnoise.interpolation;
 
 /**
  * @author Lukas Mansour

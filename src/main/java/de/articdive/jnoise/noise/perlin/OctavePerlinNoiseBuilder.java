@@ -21,9 +21,9 @@ package de.articdive.jnoise.noise.perlin;
 import de.articdive.jnoise.JNoise;
 import de.articdive.jnoise.api.Interpolation;
 import de.articdive.jnoise.api.NoiseBuilder;
-import de.articdive.jnoise.noise.interpolation.LinearInterpolation;
-import de.articdive.jnoise.noise.interpolation.CosineInterpolation;
-import de.articdive.jnoise.noise.interpolation.InterpolationType;
+import de.articdive.jnoise.interpolation.LinearInterpolation;
+import de.articdive.jnoise.interpolation.CosineInterpolation;
+import de.articdive.jnoise.interpolation.InterpolationType;
 
 /**
  * @author Lukas Mansour

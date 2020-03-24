@@ -20,6 +20,7 @@ package de.articdive.jnoise;
 
 
 import de.articdive.jnoise.api.NoiseGenerator;
+import de.articdive.jnoise.noise.combined.CombinedNoiseBuilder;
 import de.articdive.jnoise.noise.opensimplex.OctaveOpenSimplexNoiseBuilder;
 import de.articdive.jnoise.noise.opensimplex.OpenSimplexBuilder;
 import de.articdive.jnoise.noise.perlin.OctavePerlinNoiseBuilder;
@@ -119,6 +120,10 @@ public final class JNoise {
         
         public OctaveValueNoiseBuilder octaveValue() {
             return new OctaveValueNoiseBuilder();
+        }
+        
+        public CombinedNoiseBuilder combined() {
+            return new CombinedNoiseBuilder();
         }
     }
 }

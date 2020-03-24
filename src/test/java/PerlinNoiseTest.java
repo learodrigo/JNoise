@@ -17,7 +17,7 @@
  */
 
 import de.articdive.jnoise.JNoise;
-import de.articdive.jnoise.noise.interpolation.InterpolationType;
+import de.articdive.jnoise.interpolation.InterpolationType;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

@@ -16,16 +16,16 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package de.articdive.jnoise.noise.interpolation;
+package de.articdive.jnoise.operator;
 
-import de.articdive.jnoise.api.Interpolation;
+import de.articdive.jnoise.api.Operator;
 
 /**
  * @author Lukas Mansour
  */
-public final class CosineInterpolation extends Interpolation {
+public final class SubtractOperator extends Operator {
     @Override
-    public double interpolate(double a, double b, double fractal) {
-        return a + ((1.0 - Math.cos(fractal * Math.PI)) / 2.0) * (b - a);
+    public double combine(double a, double b) {
+        return a - b;
     }
 }

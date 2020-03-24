@@ -16,16 +16,16 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package de.articdive.jnoise.noise.interpolation;
+package de.articdive.jnoise.operator;
 
-import de.articdive.jnoise.api.Interpolation;
+import de.articdive.jnoise.api.Operator;
 
 /**
  * @author Lukas Mansour
  */
-public final class LinearInterpolation extends Interpolation {
+public final class AddOperator extends Operator {
     @Override
-    public double interpolate(double a, double b, double fractal) {
-        return a + fractal * (b - a);
+    public double combine(double a, double b) {
+        return a + b;
     }
 }
